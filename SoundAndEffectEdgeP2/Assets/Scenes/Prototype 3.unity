@@ -613,7 +613,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea1007427d69054fba61c63d0c9bf13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 7553358615068180725, guid: 5ba381d0cd6e2e24d8fef332ae4e7420, type: 3}
+  obstaclePrefabs:
+  - {fileID: 7553358615068180725, guid: 5ba381d0cd6e2e24d8fef332ae4e7420, type: 3}
+  - {fileID: 3742424440942911152, guid: 3ffbc11e6d758e044a862e9ffccf5d44, type: 3}
+  - {fileID: 5479799831703624980, guid: f740370aa7803ed4187013531ebd7727, type: 3}
 --- !u!4 &1025481910
 Transform:
   m_ObjectHideFlags: 0
@@ -695,6 +698,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
+--- !u!1 &1508533683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1508533685}
+  - component: {fileID: 1508533684}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1508533684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508533683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a70b7e1423c4da4398ddecd190b4678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1508533685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508533683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.3829927, y: 1.5896035, z: 0.20243347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &1901496421 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1438565936, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
@@ -875,10 +922,13 @@ MonoBehaviour:
   dirtParticle: {fileID: 1901496421}
   jumpSound: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}
   crashSound: {fileID: 8300000, guid: 913d6445ee8cc4152a9c18da590ee203, type: 3}
-  jumpForce: 700
+  jumpForce: 550
   gravityModifier: 1.5
+  doubleJumpForce: 400
   isOnGround: 1
   gameOver: 0
+  doubleJumpUsed: 0
+  doubleSpeed: 0
 --- !u!54 &2059311451
 Rigidbody:
   m_ObjectHideFlags: 0

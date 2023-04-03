@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1733917112394933418}
   m_Layer: 0
   m_Name: Obstacle_Log
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.55499756, y: 0.69095916, z: 2.3428588}
-  m_Center: {x: 0.024699047, y: 0.0032598376, z: 0.20232236}
+  m_Size: {x: 0.4104662, y: 0.5319581, z: 2.2444267}
+  m_Center: {x: -0.0019307137, y: 0.014622867, z: 0.1909647}
 --- !u!54 &5976078757746685871
 Rigidbody:
   m_ObjectHideFlags: 0
