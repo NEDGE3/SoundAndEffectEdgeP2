@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerControllerX : MonoBehaviour
 {
     public bool gameOver;
+    public bool isLowEnough;
 
     public float floatForce;
     private float gravityModifier = 1.5f;
-    public float maxHeight = 12f;
     private Rigidbody playerRb;
 
     public ParticleSystem explosionParticle;
@@ -34,8 +34,18 @@ public class PlayerControllerX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(transform.position.y <= 13)
+        {
+            isLowEnough = true;
+        }
+
+        else
+        {
+            isLowEnough = false;
+        }
+
         // While space is pressed and player is low enough, float up
-        if (Input.GetKey(KeyCode.Space) && !gameOver && transform.position.y < maxHeight)
+        if (Input.GetKey(KeyCode.Space) && !gameOver && isLowEnough)
         {
             playerRb.AddForce(Vector3.up * floatForce);
         }
