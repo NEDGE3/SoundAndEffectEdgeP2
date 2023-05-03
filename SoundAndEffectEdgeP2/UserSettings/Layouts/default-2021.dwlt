@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 88
+  controlID: 26
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 87
+  controlID: 50
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 67
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -528,7 +528,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Challenge 3
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -542,7 +542,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f66d0000
     m_LastClickedID: 28150
-    m_ExpandedIDs: 000000007e5c0000805c0000825c0000845c0000865c0000885c00008a5c00008c5c0000
+    m_ExpandedIDs: 00000000085c00000a5c00000c5c00000e5c0000105c0000125c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -570,21 +570,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000007e5c0000805c0000825c0000845c0000865c0000b25c0000
+    m_ExpandedIDs: ffffffff00000000085c00000a5c00000c5c00000e5c0000105c0000545c0000565c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerControllerX
-      m_OriginalName: PlayerControllerX
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 6116
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.095612675, y: 0.07011587, z: -0.0067548244, w: 0.99290955}
     speed: 2
-    m_Value: {x: 0.09561397, y: 0.07011682, z: -0.0067549157, w: 0.99292296}
+    m_Value: {x: -0.095612675, y: -0.07011587, z: 0.0067548244, w: -0.99290955}
   m_Size:
     m_Target: 14.143222
     speed: 2
@@ -1054,9 +1054,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c45c0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: c2dcffff38f9ffff34fbffff
+      m_SelectedIDs: 7a5c0000
+      m_LastClickedID: 23674
+      m_ExpandedIDs: 7ef9ffff34fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
